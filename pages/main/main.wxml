@@ -1,0 +1,14 @@
+
+<!--logs.wxml-->
+<view class="container">
+  <view class="section__title">场景选择器</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view>
+      当前选择：    
+      <text class="picker">{{array[index]}}</text>
+    </view>
+  </picker>
+  <view class="content-box">
+    <button loading="true" type="default">onewang</button> 
+  </view>
+</view>

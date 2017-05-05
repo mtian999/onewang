@@ -1,0 +1,10 @@
+.picker{
+  color:#e4393c;
+ 
+}
+.content-box{
+  margin-top:2rem;
+}
+.content-box button{
+  
+}
